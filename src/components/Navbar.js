@@ -31,7 +31,7 @@ const Navbar = () => {
             >
               <li>
                 <Link
-                  className="text-white transition duration-200 hover:text-neutral-700 hover:ease-in-out focus:text-neutral-700 disabled:text-black/30 motion-reduce:transition-none dark:text-neutral-200 dark:hover:text-neutral-300 dark:focus:text-neutral-300 px-4 [&.active]:text-black/90 dark:[&.active]:text-zinc-400"
+                  className="text-gray-400 transition duration-200 hover:text-neutral-700 hover:ease-in-out focus:text-neutral-700 disabled:text-black/30 motion-reduce:transition-none dark:text-neutral-200 dark:hover:text-neutral-300 dark:focus:text-neutral-300 px-4 [&.active]:text-black/90 dark:[&.active]:text-zinc-400"
                   to="/"
                 >
                   Home
@@ -39,7 +39,7 @@ const Navbar = () => {
               </li>
               <li>
                 <Link
-                  className="text-white transition duration-200 hover:text-neutral-700 hover:ease-in-out focus:text-neutral-700 disabled:text-black/30 motion-reduce:transition-none dark:text-neutral-200 dark:hover:text-neutral-300 dark:focus:text-neutral-300 px-4 [&.active]:text-black/90 dark:[&.active]:text-neutral-400"
+                  className="text-gray-400 transition duration-200 hover:text-neutral-700 hover:ease-in-out focus:text-neutral-700 disabled:text-black/30 motion-reduce:transition-none dark:text-neutral-200 dark:hover:text-neutral-300 dark:focus:text-neutral-300 px-4 [&.active]:text-black/90 dark:[&.active]:text-neutral-400"
                   to="/card"
                 >
                   Card
@@ -49,7 +49,7 @@ const Navbar = () => {
                 <li>
                   <Link
                     onClick={handleClear}
-                    className="text-white transition duration-200 hover:text-neutral-700 hover:ease-in-out focus:text-neutral-700 disabled:text-black/30 motion-reduce:transition-none dark:text-neutral-200 dark:hover:text-neutral-300 dark:focus:text-neutral-300 px-4 [&.active]:text-black/90 dark:[&.active]:text-neutral-400"
+                    className="text-gray-400 transition duration-200 hover:text-neutral-700 hover:ease-in-out focus:text-neutral-700 disabled:text-black/30 motion-reduce:transition-none dark:text-neutral-200 dark:hover:text-neutral-300 dark:focus:text-neutral-300 px-4 [&.active]:text-black/90 dark:[&.active]:text-neutral-400"
                     to="/login"
                   >
                     Logout
@@ -58,7 +58,7 @@ const Navbar = () => {
               ) : (
                 <li>
                   <Link
-                    className="text-white transition duration-200 hover:text-neutral-700 hover:ease-in-out focus:text-neutral-700 disabled:text-black/30 motion-reduce:transition-none dark:text-neutral-200 dark:hover:text-neutral-300 dark:focus:text-neutral-300 px-4 [&.active]:text-black/90 dark:[&.active]:text-neutral-400"
+                    className="text-gray-400 transition duration-200 hover:text-neutral-700 hover:ease-in-out focus:text-neutral-700 disabled:text-black/30 motion-reduce:transition-none dark:text-neutral-200 dark:hover:text-neutral-300 dark:focus:text-neutral-300 px-4 [&.active]:text-black/90 dark:[&.active]:text-neutral-400"
                     to="/login"
                   >
                     Login
